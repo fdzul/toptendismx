@@ -5,12 +5,10 @@
 \alias{accidents}
 \title{Mexico accident dataset}
 \format{
-A sf object with 2465 rows and 29 variables:
+A sf object with 2477 rows and 26 variables:
 \describe{
   \item{CVEGEO}{the ids.}
-  \item{CVE_ENT}{is the numeric key of state.}
-  \item{CVE_MUN}{is the numeric key to the Municipality}
-  \item{NOMGEO}{is the numeric key to the Sectors}
+  \item{NOMBRE}{is the name of the Municipality}
   \item{ACC_2003}{accident cases from 2003}
   \item{ACC_2004}{accident cases from 2004}
   \item{ACC_2005}{accident cases from 2005}
