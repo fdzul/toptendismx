@@ -23,7 +23,7 @@ library(toptendismx)
 
 ```{r}
 library(sf)
-skimr::skim(toptendismx::diabetes)
+skimr::skim(toptendismx::diabetes |> sf::st_drop_geometry())
 ```
 
 

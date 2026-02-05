@@ -1,0 +1,37 @@
+---
+title: "Mexico Accidents Dataset"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Mexico Accidents Dataset}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Cargar el paquete
+```{r setup}
+library(toptendismx)
+```
+
+## EDA
+
+```{r}
+library(sf)
+skimr::skim(toptendismx::accidents |> sf::st_drop_geometry())
+```
+
+
+```{r}
+dplyr::glimpse(toptendismx::accidents |> sf::st_drop_geometry())
+```
+
+```{r}
+gtExtras::gt_plt_summary(toptendismx::accidents |> sf::st_drop_geometry())
+```
+

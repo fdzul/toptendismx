@@ -24,7 +24,7 @@ library(toptendismx)
 
 ```{r}
 library(sf)
-skimr::skim(toptendismx::cardiovascular_diseases)
+skimr::skim(toptendismx::cardiovascular_diseases |> sf::st_drop_geometry())
 ```
 
 
