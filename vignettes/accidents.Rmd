@@ -23,15 +23,16 @@ library(toptendismx)
 
 ```{r}
 library(sf)
-skimr::skim(toptendismx::accidents |> sf::st_drop_geometry())
+skimr::skim(toptendismx::accidents)
 ```
 
 
 ```{r}
-dplyr::glimpse(toptendismx::accidents |> sf::st_drop_geometry())
+dplyr::glimpse(toptendismx::accidents)
 ```
 
 ```{r}
-gtExtras::gt_plt_summary(toptendismx::accidents |> sf::st_drop_geometry())
+gtExtras::gt_plt_summary(toptendismx::accidents)
 ```
 
+# 

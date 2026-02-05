@@ -5,10 +5,9 @@
 \alias{epoc}
 \title{EPOC dataset}
 \format{
-A sf object with 2477 rows and 26 variables:
+A data.frame object with 2478 rows and 24 variables:
 \describe{
-  \item{CVEGEO}{the ids.}
-  \item{NOMBRE}{is the name of the Municipality}
+  \item{CVEGEO}{the ids of the municipalities}
   \item{EPOC_2003}{epoc cases from 2003}
   \item{EPOC_2004}{epoc cases from 2004}
   \item{EPOC_2005}{epoc cases from 2005}
@@ -32,7 +31,6 @@ A sf object with 2477 rows and 26 variables:
   \item{EPOC_2023}{epoc cases from 2023}
   \item{EPOC_2024}{epoc cases from 2024}
   \item{EPOC_2025}{epoc cases from 2025}
-  \item{geometry}{simple feature.}
   ...
 }
 }
@@ -46,6 +44,6 @@ epoc
 Municipal dataset containing EPOC cases in Mexico from 2003 to 2025
 }
 \details{
-object sf of a municipal dataset of epoc cases in Mexico from 2003 to 2025.
+object data.frame of a municipal dataset of epoc cases in Mexico from 2003 to 2025.
 }
 \keyword{datasets}

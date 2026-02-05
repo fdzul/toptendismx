@@ -30,8 +30,14 @@ Authors@R: c(person(given = "Felipe Antonio",
                         family = "Moreno Banda",
                         role = c("aut"),
                         email = "glmoreno@insp.mx",
-                        comment = c(ORCID = "orcid.org/0000-0001-7839-5194")
+                        comment = c(ORCID = "orcid.org/0000-0001-7839-5194")),
+            person(given = "Linda Esmeralda",
+                        family = "Carmona Licona",
+                        role = c("aut"),
+                        email = "dra_lecl@hotmail.com",
+                        comment = c(ORCID = "orcid.org/0009-0005-6766-5220")
                         ),
+                        
               person(given = "Fabian",
                         family = "Correa-Morales",
                         role = c("ctb"),

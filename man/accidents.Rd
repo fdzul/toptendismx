@@ -5,10 +5,9 @@
 \alias{accidents}
 \title{Mexico accident dataset}
 \format{
-A sf object with 2477 rows and 26 variables:
+A data.frame object with 2478 rows and 24 variables:
 \describe{
-  \item{CVEGEO}{the ids.}
-  \item{NOMBRE}{is the name of the Municipality}
+  \item{CVEGEO}{the id of the municipalities}
   \item{ACC_2003}{accident cases from 2003}
   \item{ACC_2004}{accident cases from 2004}
   \item{ACC_2005}{accident cases from 2005}
@@ -32,7 +31,6 @@ A sf object with 2477 rows and 26 variables:
   \item{ACC_2023}{accident cases from 2023}
   \item{ACC_2024}{accident cases from 2024}
   \item{ACC_2025}{accident cases from 2025}
-  \item{geometry}{simple feature.}
   ...
 }
 }
@@ -46,6 +44,6 @@ accidents
 Municipal dataset containing accident cases in Mexico from 2003 to 2025
 }
 \details{
-object sf of a municipal dataset of accident cases in Mexico from 2003 to 2025.
+object data.frame of a municipal dataset of accident cases in Mexico from 2003 to 2025.
 }
 \keyword{datasets}

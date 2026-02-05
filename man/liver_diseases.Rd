@@ -5,10 +5,9 @@
 \alias{liver_diseases}
 \title{Liver diseases dataset}
 \format{
-A sf object with 2477 rows and 26 variables:
+A object with 2478 rows and 24 variables:
 \describe{
-  \item{CVEGEO}{the ids.}
-  \item{NOMBRE}{is the name of the Municipality}
+  \item{CVEGEO}{the ids of the municipalities}
   \item{LD_2003}{liver diseases cases from 2003}
   \item{LD_2004}{liver diseases cases from 2004}
   \item{LD_2005}{liver diseases cases from 2005}
@@ -32,7 +31,6 @@ A sf object with 2477 rows and 26 variables:
   \item{LD_2023}{liver diseases cases from 2023}
   \item{LD_2024}{liver diseases cases from 2024}
   \item{LD_2025}{liver diseases cases from 2025}
-  \item{geometry}{simple feature.}
   ...
 }
 }
@@ -46,6 +44,6 @@ liver_diseases
 Municipal dataset containing liver diseases cases in Mexico from 2003 to 2025
 }
 \details{
-object sf of a municipal dataset of liver diseases cases in Mexico from 2003 to 2025.
+object data.frame of a municipal dataset of liver diseases cases in Mexico from 2003 to 2025.
 }
 \keyword{datasets}

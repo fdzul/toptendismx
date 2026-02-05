@@ -2,10 +2,9 @@
 #'
 #' Municipal dataset containing accident cases in Mexico from 2003 to 2025
 #'
-#' @format A sf object with 2477 rows and 26 variables:
+#' @format A data.frame object with 2478 rows and 24 variables:
 #' \describe{
-#'   \item{CVEGEO}{the ids.}
-#'   \item{NOMBRE}{is the name of the Municipality}
+#'   \item{CVEGEO}{the id of the municipalities}
 #'   \item{ACC_2003}{accident cases from 2003}
 #'   \item{ACC_2004}{accident cases from 2004}
 #'   \item{ACC_2005}{accident cases from 2005}
@@ -29,21 +28,19 @@
 #'   \item{ACC_2023}{accident cases from 2023}
 #'   \item{ACC_2024}{accident cases from 2024}
 #'   \item{ACC_2025}{accident cases from 2025}
-#'   \item{geometry}{simple feature.}
 #'   ...
 #' }
 #' @source \url{https://pautas.ine.mx/transparencia/mapas/}
-#' @details object sf of a municipal dataset of accident cases in Mexico from 2003 to 2025.
+#' @details object data.frame of a municipal dataset of accident cases in Mexico from 2003 to 2025.
 "accidents"
 
 #' Cardiovascular diseases dataset
 #'
 #' Municipal dataset containing cardiovascular cases in Mexico from 2003 to 2025
 #'
-#' @format A sf object with 2477 rows and 26 variables:
+#' @format A data.frame object with 2478 rows and 24 variables:
 #' \describe{
-#'   \item{CVEGEO}{the ids.}
-#'   \item{NOMBRE}{is the name of the Municipality}
+#'   \item{CVEGEO}{the ids of the municipalities}
 #'   \item{CD_2003}{cardiovascular cases from 2003}
 #'   \item{CD_2004}{cardiovascular cases from 2004}
 #'   \item{CD_2005}{cardiovascular cases from 2005}
@@ -67,21 +64,19 @@
 #'   \item{CD_2023}{cardiovascular cases from 2023}
 #'   \item{CD_2024}{cardiovascular cases from 2024}
 #'   \item{CD_2025}{cardiovascular cases from 2025}
-#'   \item{geometry}{simple feature.}
 #'   ...
 #' }
 #' @source \url{https://pautas.ine.mx/transparencia/mapas/}
-#' @details object sf of a municipal dataset of cardiovascular cases in Mexico from 2003 to 2025.
+#' @details object data.frame of a municipal dataset of cardiovascular cases in Mexico from 2003 to 2025.
 "cardiovascular_diseases"
 
 #' Diabetes dataset
 #'
 #' Municipal dataset containing diabetes cases in Mexico from 2003 to 2025
 #'
-#' @format A sf object with 2477 rows and 26 variables:
+#' @format A data.frame object with 2478 rows and 24 variables:
 #' \describe{
-#'   \item{CVEGEO}{the ids.}
-#'   \item{NOMBRE}{is the name of the Municipality}
+#'   \item{CVEGEO}{the ids of the municipalities}
 #'   \item{DIA_2003}{diabetes cases from 2003}
 #'   \item{DIA_2004}{diabetes cases from 2004}
 #'   \item{DIA_2005}{diabetes cases from 2005}
@@ -105,21 +100,19 @@
 #'   \item{DIA_2023}{diabetes cases from 2023}
 #'   \item{DIA_2024}{diabetes cases from 2024}
 #'   \item{DIA_2025}{diabetes cases from 2025}
-#'   \item{geometry}{simple feature.}
 #'   ...
 #' }
 #' @source \url{https://pautas.ine.mx/transparencia/mapas/}
-#' @details object sf of a municipal dataset of diabetes cases in Mexico from 2003 to 2025.
+#' @details object data.frame of a municipal dataset of diabetes cases in Mexico from 2003 to 2025.
 "diabetes"
 
 #' EPOC dataset
 #'
 #' Municipal dataset containing EPOC cases in Mexico from 2003 to 2025
 #'
-#' @format A sf object with 2477 rows and 26 variables:
+#' @format A data.frame object with 2478 rows and 24 variables:
 #' \describe{
-#'   \item{CVEGEO}{the ids.}
-#'   \item{NOMBRE}{is the name of the Municipality}
+#'   \item{CVEGEO}{the ids of the municipalities}
 #'   \item{EPOC_2003}{epoc cases from 2003}
 #'   \item{EPOC_2004}{epoc cases from 2004}
 #'   \item{EPOC_2005}{epoc cases from 2005}
@@ -143,21 +136,19 @@
 #'   \item{EPOC_2023}{epoc cases from 2023}
 #'   \item{EPOC_2024}{epoc cases from 2024}
 #'   \item{EPOC_2025}{epoc cases from 2025}
-#'   \item{geometry}{simple feature.}
 #'   ...
 #' }
 #' @source \url{https://pautas.ine.mx/transparencia/mapas/}
-#' @details object sf of a municipal dataset of epoc cases in Mexico from 2003 to 2025.
+#' @details object data.frame of a municipal dataset of epoc cases in Mexico from 2003 to 2025.
 "epoc"
 
 #' Hearth Diseases dataset
 #'
 #' Municipal dataset containing Hearth Diseases cases in Mexico from 2003 to 2025
 #'
-#' @format A sf object with 2477 rows and 26 variables:
+#' @format A data.frame object with 2478 rows and 24 variables:
 #' \describe{
-#'   \item{CVEGEO}{the ids.}
-#'   \item{NOMBRE}{is the name of the Municipality}
+#'   \item{CVEGEO}{the ids the municipalities}
 #'   \item{HD_2003}{hearth diseases cases from 2003}
 #'   \item{HD_2004}{hearth diseases cases from 2004}
 #'   \item{HD_2005}{hearth diseases cases from 2005}
@@ -181,21 +172,19 @@
 #'   \item{HD_2023}{hearth diseases cases from 2023}
 #'   \item{HD_2024}{hearth diseases cases from 2024}
 #'   \item{HD_2025}{hearth diseases cases from 2025}
-#'   \item{geometry}{simple feature.}
 #'   ...
 #' }
 #' @source \url{https://pautas.ine.mx/transparencia/mapas/}
-#' @details object sf of a municipal dataset of hearth diseases cases in Mexico from 2003 to 2025.
+#' @details object data.frame of a municipal dataset of hearth diseases cases in Mexico from 2003 to 2025.
 "hearth_diseases"
 
 #' Influenza-Pneumonia dataset
 #'
 #' Municipal dataset containing Influenza-Pneumonia cases in Mexico from 2003 to 2025
 #'
-#' @format A sf object with 2477 rows and 26 variables:
+#' @format A data.frame object with 2478 rows and 24 variables:
 #' \describe{
-#'   \item{CVEGEO}{the ids.}
-#'   \item{NOMBRE}{is the name of the Municipality}
+#'   \item{CVEGEO}{the ids of the municipalities}
 #'   \item{IP_2003}{influenza-pneumonia cases from 2003}
 #'   \item{IP_2004}{influenza-pneumonia cases from 2004}
 #'   \item{IP_2005}{influenza-pneumonia cases from 2005}
@@ -219,40 +208,36 @@
 #'   \item{IP_2023}{influenza-pneumonia cases from 2023}
 #'   \item{IP_2024}{influenza-pneumonia cases from 2024}
 #'   \item{IP_2025}{influenza-pneumonia cases from 2025}
-#'   \item{geometry}{simple feature.}
 #'   ...
 #' }
 #' @source \url{https://pautas.ine.mx/transparencia/mapas/}
-#' @details object sf of a municipal dataset of Influenza-Pneumonia diseases cases in Mexico from 2003 to 2025.
+#' @details object data.frame of a municipal dataset of Influenza-Pneumonia diseases cases in Mexico from 2003 to 2025.
 "influenza_pneumonia"
 
 #' Kidney diseases dataset
 #'
 #' Municipal dataset containing kidney diseases cases in Mexico from 2020 to 2023
 #'
-#' @format A sf object with 2477 rows and 26 variables:
+#' @format A data.frame object with 2478 rows and 24 variables:
 #' \describe{
-#'   \item{CVEGEO}{the ids.}
-#'   \item{NOMBRE}{is the name of the Municipality}
+#'   \item{CVEGEO}{the ids of the municipalities}
 #'   \item{KD_2020}{kidney diseases cases from 2020}
 #'   \item{KD_2021}{kidney diseases cases from 2021}
 #'   \item{KD_2022}{kidney diseases cases from 2022}
 #'   \item{KD_2023}{kidney diseases cases from 2023}
-#'   \item{geometry}{simple feature.}
 #'   ...
 #' }
 #' @source \url{https://pautas.ine.mx/transparencia/mapas/}
-#' @details object sf of a municipal dataset of kidney diseases cases in Mexico from 2003 to 2025.
+#' @details object data.frame of a municipal dataset of kidney diseases cases in Mexico from 2003 to 2025.
 "kidney_diseases"
 
 #' Liver diseases dataset
 #'
 #' Municipal dataset containing liver diseases cases in Mexico from 2003 to 2025
 #'
-#' @format A sf object with 2477 rows and 26 variables:
+#' @format A object with 2478 rows and 24 variables:
 #' \describe{
-#'   \item{CVEGEO}{the ids.}
-#'   \item{NOMBRE}{is the name of the Municipality}
+#'   \item{CVEGEO}{the ids of the municipalities}
 #'   \item{LD_2003}{liver diseases cases from 2003}
 #'   \item{LD_2004}{liver diseases cases from 2004}
 #'   \item{LD_2005}{liver diseases cases from 2005}
@@ -276,21 +261,19 @@
 #'   \item{LD_2023}{liver diseases cases from 2023}
 #'   \item{LD_2024}{liver diseases cases from 2024}
 #'   \item{LD_2025}{liver diseases cases from 2025}
-#'   \item{geometry}{simple feature.}
 #'   ...
 #' }
 #' @source \url{https://pautas.ine.mx/transparencia/mapas/}
-#' @details object sf of a municipal dataset of liver diseases cases in Mexico from 2003 to 2025.
+#' @details object data.frame of a municipal dataset of liver diseases cases in Mexico from 2003 to 2025.
 "liver_diseases"
 
 #' Malignant tumors  dataset
 #'
 #' Municipal dataset containing malignant tumors cases in Mexico from 2003 to 2025
 #'
-#' @format A sf object with 2477 rows and 26 variables:
+#' @format A data.frame object with 2478 rows and 24 variables:
 #' \describe{
-#'   \item{CVEGEO}{the ids.}
-#'   \item{NOMBRE}{is the name of the Municipality}
+#'   \item{CVEGEO}{the ids of the municipalities}
 #'   \item{MT_2003}{malignant tumors cases from 2003}
 #'   \item{MT_2004}{malignant tumors cases from 2004}
 #'   \item{MT_2005}{malignant tumors cases from 2005}
@@ -314,10 +297,8 @@
 #'   \item{MT_2023}{malignant tumors cases from 2023}
 #'   \item{MT_2024}{malignant tumors cases from 2024}
 #'   \item{MT_2025}{malignant tumors cases from 2025}
-#'   \item{geometry}{simple feature.}
 #'   ...
 #' }
 #' @source \url{https://pautas.ine.mx/transparencia/mapas/}
-#' @details object sf of a municipal dataset of malignant tumors cases in Mexico from 2003 to 2025.
+#' @details object data.frame of a municipal dataset of malignant tumors cases in Mexico from 2003 to 2025.
 "malignant_tumors"
-

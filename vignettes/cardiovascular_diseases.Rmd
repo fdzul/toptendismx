@@ -24,16 +24,16 @@ library(toptendismx)
 
 ```{r}
 library(sf)
-skimr::skim(toptendismx::cardiovascular_diseases |> sf::st_drop_geometry())
+skimr::skim(toptendismx::cardiovascular_diseases)
 ```
 
 
 ```{r}
-dplyr::glimpse(toptendismx::cardiovascular_diseases |> sf::st_drop_geometry())
+dplyr::glimpse(toptendismx::cardiovascular_diseases)
 ```
 
 ```{r}
-gtExtras::gt_plt_summary(toptendismx::cardiovascular_diseases |> sf::st_drop_geometry())
+gtExtras::gt_plt_summary(toptendismx::cardiovascular_diseases)
 ```
 
 

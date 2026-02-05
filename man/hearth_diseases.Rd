@@ -5,10 +5,9 @@
 \alias{hearth_diseases}
 \title{Hearth Diseases dataset}
 \format{
-A sf object with 2477 rows and 26 variables:
+A data.frame object with 2478 rows and 24 variables:
 \describe{
-  \item{CVEGEO}{the ids.}
-  \item{NOMBRE}{is the name of the Municipality}
+  \item{CVEGEO}{the ids the municipalities}
   \item{HD_2003}{hearth diseases cases from 2003}
   \item{HD_2004}{hearth diseases cases from 2004}
   \item{HD_2005}{hearth diseases cases from 2005}
@@ -32,7 +31,6 @@ A sf object with 2477 rows and 26 variables:
   \item{HD_2023}{hearth diseases cases from 2023}
   \item{HD_2024}{hearth diseases cases from 2024}
   \item{HD_2025}{hearth diseases cases from 2025}
-  \item{geometry}{simple feature.}
   ...
 }
 }
@@ -46,6 +44,6 @@ hearth_diseases
 Municipal dataset containing Hearth Diseases cases in Mexico from 2003 to 2025
 }
 \details{
-object sf of a municipal dataset of hearth diseases cases in Mexico from 2003 to 2025.
+object data.frame of a municipal dataset of hearth diseases cases in Mexico from 2003 to 2025.
 }
 \keyword{datasets}

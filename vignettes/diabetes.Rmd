@@ -23,15 +23,15 @@ library(toptendismx)
 
 ```{r}
 library(sf)
-skimr::skim(toptendismx::diabetes |> sf::st_drop_geometry())
+skimr::skim(toptendismx::diabetes)
 ```
 
 
 ```{r}
-dplyr::glimpse(toptendismx::diabetes |> sf::st_drop_geometry())
+dplyr::glimpse(toptendismx::diabetes)
 ```
 
 ```{r}
-gtExtras::gt_plt_summary(toptendismx::diabetes |> sf::st_drop_geometry())
+gtExtras::gt_plt_summary(toptendismx::diabetes)
 ```
 

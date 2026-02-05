@@ -5,15 +5,13 @@
 \alias{kidney_diseases}
 \title{Kidney diseases dataset}
 \format{
-A sf object with 2477 rows and 26 variables:
+A data.frame object with 2478 rows and 24 variables:
 \describe{
-  \item{CVEGEO}{the ids.}
-  \item{NOMBRE}{is the name of the Municipality}
+  \item{CVEGEO}{the ids of the municipalities}
   \item{KD_2020}{kidney diseases cases from 2020}
   \item{KD_2021}{kidney diseases cases from 2021}
   \item{KD_2022}{kidney diseases cases from 2022}
   \item{KD_2023}{kidney diseases cases from 2023}
-  \item{geometry}{simple feature.}
   ...
 }
 }
@@ -27,6 +25,6 @@ kidney_diseases
 Municipal dataset containing kidney diseases cases in Mexico from 2020 to 2023
 }
 \details{
-object sf of a municipal dataset of kidney diseases cases in Mexico from 2003 to 2025.
+object data.frame of a municipal dataset of kidney diseases cases in Mexico from 2003 to 2025.
 }
 \keyword{datasets}

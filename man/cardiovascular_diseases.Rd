@@ -5,10 +5,9 @@
 \alias{cardiovascular_diseases}
 \title{Cardiovascular diseases dataset}
 \format{
-A sf object with 2477 rows and 26 variables:
+A data.frame object with 2478 rows and 24 variables:
 \describe{
-  \item{CVEGEO}{the ids.}
-  \item{NOMBRE}{is the name of the Municipality}
+  \item{CVEGEO}{the ids of the municipalities}
   \item{CD_2003}{cardiovascular cases from 2003}
   \item{CD_2004}{cardiovascular cases from 2004}
   \item{CD_2005}{cardiovascular cases from 2005}
@@ -32,7 +31,6 @@ A sf object with 2477 rows and 26 variables:
   \item{CD_2023}{cardiovascular cases from 2023}
   \item{CD_2024}{cardiovascular cases from 2024}
   \item{CD_2025}{cardiovascular cases from 2025}
-  \item{geometry}{simple feature.}
   ...
 }
 }
@@ -46,6 +44,6 @@ cardiovascular_diseases
 Municipal dataset containing cardiovascular cases in Mexico from 2003 to 2025
 }
 \details{
-object sf of a municipal dataset of cardiovascular cases in Mexico from 2003 to 2025.
+object data.frame of a municipal dataset of cardiovascular cases in Mexico from 2003 to 2025.
 }
 \keyword{datasets}

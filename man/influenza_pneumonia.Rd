@@ -5,10 +5,9 @@
 \alias{influenza_pneumonia}
 \title{Influenza-Pneumonia dataset}
 \format{
-A sf object with 2477 rows and 26 variables:
+A data.frame object with 2478 rows and 24 variables:
 \describe{
-  \item{CVEGEO}{the ids.}
-  \item{NOMBRE}{is the name of the Municipality}
+  \item{CVEGEO}{the ids of the municipalities}
   \item{IP_2003}{influenza-pneumonia cases from 2003}
   \item{IP_2004}{influenza-pneumonia cases from 2004}
   \item{IP_2005}{influenza-pneumonia cases from 2005}
@@ -32,7 +31,6 @@ A sf object with 2477 rows and 26 variables:
   \item{IP_2023}{influenza-pneumonia cases from 2023}
   \item{IP_2024}{influenza-pneumonia cases from 2024}
   \item{IP_2025}{influenza-pneumonia cases from 2025}
-  \item{geometry}{simple feature.}
   ...
 }
 }
@@ -46,6 +44,6 @@ influenza_pneumonia
 Municipal dataset containing Influenza-Pneumonia cases in Mexico from 2003 to 2025
 }
 \details{
-object sf of a municipal dataset of Influenza-Pneumonia diseases cases in Mexico from 2003 to 2025.
+object data.frame of a municipal dataset of Influenza-Pneumonia diseases cases in Mexico from 2003 to 2025.
 }
 \keyword{datasets}
