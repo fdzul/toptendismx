@@ -26,3 +26,12 @@ library(sf)
 skimr::skim(toptendismx::accidents)
 ```
 
+```{r}
+dplyr::glimpse(accidents |> sf::st_drop_geometry())
+```
+
+```{r}
+gtExtras::gt_plt_summary(accidents |> sf::st_drop_geometry())
+```
+
+

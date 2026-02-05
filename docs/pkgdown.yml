@@ -3,4 +3,6 @@ pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   accidents: accidents.html
-last_built: 2026-02-05T01:16Z
+  cardiovascular_diseases: cardiovascular_diseases.html
+  diabetes: diabetes.html
+last_built: 2026-02-05T03:05Z

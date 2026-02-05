@@ -1,0 +1,37 @@
+---
+title: "Mexico Diabetes Dataset"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Mexico diabetes dataset}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Cargar el paquete
+```{r setup}
+library(toptendismx)
+```
+
+## EDA
+
+```{r}
+library(sf)
+skimr::skim(toptendismx::diabetes)
+```
+
+
+```{r}
+dplyr::glimpse(toptendismx::diabetes |> sf::st_drop_geometry())
+```
+
+```{r}
+gtExtras::gt_plt_summary(toptendismx::diabetes |> sf::st_drop_geometry())
+```
+
