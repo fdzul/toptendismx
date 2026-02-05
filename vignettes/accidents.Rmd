@@ -14,7 +14,15 @@ knitr::opts_chunk$set(
 )
 ```
 
+
+## Cargar el paquete
 ```{r setup}
 library(toptendismx)
+```
+
+## EDA
+```{r}
+library(sf)
+skimr::skim(toptendismx::accidents)
 ```
 
